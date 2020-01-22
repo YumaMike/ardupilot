@@ -177,7 +177,7 @@ private:
     Vector3f position_offset;
     Vector3f last_velocity_ef;
 
-    const char *controller_ip = "127.0.0.1";
+    const char *controller_ip = "192.168.0.3";
     uint16_t controller_port = 18083;
 
     pthread_t thread;
